@@ -22,41 +22,46 @@
   </header>
 
   <main>
-    <h2>Contáctenos</h2>
-    <p>Respondemos todas las consultas el mismo día.</p>
+    <div class="envoltorio">
+      <h2>Contáctenos</h2>
+      <p>Respondemos todas las consultas el mismo día.</p>
+      <div class="columnas">
+        <section class="tarjeta-info">
+          <h3>Dónde estamos</h3>
+          <p class="dato">Avenida 8, calle 21, San José.</p>
+          <p class="dato">Teléfono: 2256-4410</p>
+          <p class="dato">Lunes a viernes de 8 a. m. a 6 p. m.</p>
+          <p class="dato">Urgencias: 8712-0045</p>
+        </section>
 
-    <section>
-      <h3>Dónde estamos</h3>
-      <p>Avenida 8, calle 21, San José.</p>
-      <p>Teléfono: 2256-4410</p>
-      <p>Lunes a viernes de 8 a. m. a 6 p. m.</p>
-      <p>Urgencias: 8712-0045</p>
-    </section>
+        <form class="formulario">
+          <h3>Escríbanos</h3>
 
-    <form class="formulario">
-      <h3>Escríbanos</h3>
+          <div class="campo">
+            <label class="etiqueta" for="nombre">Nombre completo</label>
+            <input class="entrada" type="text" id="nombre" name="nombre">
+          </div>
+          
+          <div class="campo">
+            <label class="etiqueta" for="correo">Correo electrónico</label>
+            <input class="entrada" type="email" id="correo" name="correo">
+          </div>
+            
+          <div class="campo">
+            <label class="etiqueta" for="motivo">Motivo de la consulta</label>
+            <input class="entrada" type="text" id="motivo" name="motivo">
+          </div>
 
-      <div class="campo">
-        <label class="etiqueta" for="nombre">Nombre completo</label>
-        <input class="entrada" type="text" id="nombre" name="nombre">
+          <button class="boton-enviar" type="submit">Enviar consulta</button>
+        </form>
       </div>
-      
-      <div class="campo">
-        <label class="etiqueta" for="correo">Correo electrónico</label>
-        <input class="entrada" type="email" id="correo" name="correo">
-      </div>
-        
-      <div class="campo">
-        <label class="etiqueta" for="motivo">Motivo de la consulta</label>
-        <input class="entrada" type="text" id="motivo" name="motivo">
-      </div>
-
-      <button class="boton-enviar" type="submit">Enviar consulta</button>
-    </form>
+    </div>
   </main>
 
-  <footer>
-    <p>Clínica Dental Sonrisa · San José, Costa Rica</p>
+  <footer class="pie-pagina">
+    <div class="envoltorio">
+      <p>Clínica Dental Sonrisa · San José, Costa Rica</p>
+    </div>
   </footer>
 
 </body>
